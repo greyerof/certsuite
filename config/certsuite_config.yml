@@ -1,7 +1,5 @@
 targetNameSpaces:
-  - name: tnf
-podsUnderTestLabels:
-  - "redhat-best-practices-for-k8s.com/generic: target"
+  - name: kube-system
 operatorsUnderTestLabels:
   - "redhat-best-practices-for-k8s.com/operator:target"
   - "redhat-best-practices-for-k8s.com/operator1:new"
